@@ -107,7 +107,7 @@ public class ApplicantActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.family_member) {
-            contentFragment = new GuardianFragment();
+            contentFragment = new FamilyFragment();
         } else if (id == R.id.profile) {
             contentFragment = new ProfileFragment();
         }
