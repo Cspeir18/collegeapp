@@ -6,6 +6,7 @@ package com.example.cspeir.collegeapp;
 
 public class Guardian extends FamilyMember {
     private String occupation;
+
     public Guardian(String first, String last){
         super(first, last);
         occupation= "unknown";

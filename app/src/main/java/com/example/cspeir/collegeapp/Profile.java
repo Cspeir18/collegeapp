@@ -1,5 +1,6 @@
 package com.example.cspeir.collegeapp;
 
+import java.io.File;
 import java.util.Date;
 
 /**
@@ -15,10 +16,14 @@ public class Profile extends ApplicantData {
     }
     private String objectId;
     private String email;
+    private final String fileName= "IMG_PROFILE.jpg";
     public void setFirstName(String firstName) {
         this.firstName = firstName;
     }
 
+    public String getPhotoFileName(){
+        return fileName;
+    }
 
 
     public String getLastName() {
